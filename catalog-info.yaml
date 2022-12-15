@@ -5,3 +5,4 @@ metadata:
 spec:
   targets:
     - ./test.yaml
+    - ./testfolder/testinfolder.yaml

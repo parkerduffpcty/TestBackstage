@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: testinfolder
+  labels:
+    access: internal
+  tags: []
+spec:
+  type: single-use
+  lifecycle: design
+  owner: parker
+  definition: |
+    {
+      "openapi": "3.1.0"
+      "info": {
+        "version": "2022-01-01"
+        "title": "testinfolder"
+      }
+    }
