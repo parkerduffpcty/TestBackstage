@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: CatalogueTest
+  labels:
+    access: private
+spec:
+  type: single-use
+  lifecycle: design
+  owner: a
+  definition: |
+    {
+      "openapi": "3.1.0"
+      "info": {
+        "version": "2022-01-01"
+        "title": "CatalogueTest"
+      }
+    }
